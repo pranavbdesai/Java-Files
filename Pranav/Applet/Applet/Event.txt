@@ -1,0 +1,10 @@
+/*
+For Event Handling We have to use 
+java.awt.event.* package.
+
+this package contains interface (listeners) for performing event handling.
+
+1. ActionListener
+	(applied on Button,MenuItem,Checkbox)
+  actionPerformed() method override.
+*/

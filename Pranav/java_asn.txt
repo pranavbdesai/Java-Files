@@ -1,0 +1,52 @@
+Give the answers of following.
+
+1.Explain various features of JAVA.
+2.Give the diffrence between java and C++.
+3.Explain shift and short circuit operator with example.
+4.Explain Inner class and how to access the methods and varialbles of its with proper     example.
+5. Explain "This,Super and final" keyword with example.
+6. Explain Garbage collector in JAVA.(or Java has no destructor)
+7. Give the diffrence between Method overriding and Method Overloading.
+8. What is Inheritance? Explain various type of inheritance.Why multiple inheritence     not possible in java? explain with exmaple.
+9. Expain Dynamic method dispatch(Runtime Polymorphism) with appropriate example.
+10. Justify "Java is architectural netural language"
+11. Explain abstact and static keyword with example.
+
+Write a program for following.
+
+1. Create a class student that has rollno, name, marks [5] as data member and void getinfo (), void putinfo () and float calCPI (). If student have marks less than 35 in any subjects then he is failed otherwise calculate CPI. And display student’s details
+
+2.Create a class Car that has Model no, Name, color & cost as Data member and create void getCarDetails () and void showCardDetails () as member function. Read details for 3 cars and display it.
+
+3.Create a class BankAccount that has Depositor name , Acc_no,  Acc_type, Balance as Data Members and void createAcc() . void Deposit(), void withdraw() and void BalanceInquiry as Member Function. When a new Account is created assign next serial no as account number. Account number starts from 1. 
+
+4.Create a class time that has hour, minute and second as data members. Create a parameterized constructor to initialize Time Objects. Create a member Function Time Sum (Time, Time) to sum two time objects. 
+
+5.Define a class Sales with the name and sales of salesman as data members. Calculate and print the Name, sales and commission, where commission iso Rs .10 per 1000, if sales are at lease Rs. 25000 of more and Rs. 5 otherwise. Use appropriate member function.
+
+6.Define a class with the Name, Basic salary and dearness allowance as data members.
+Calculate and print the Name, Basic salary(yearly), dearness allowance and tax deduced at source(TDS) and net salary, where TDS is charged on gross salary  which is basic salary + dearness allowance and TDS rate is as per following table.
+Gross Salar                          |             TDS
+Rs. 100000 and below        |             NIL
+Above Rs. 100000               |             10% on excess over 100000
+
+DA is 74% of Basic Salary for all
+Use appropriate member function.
+
+7.Define a class Stack with following members 
+   Fields:
+        double  array[];
+        int size
+  Function:
+        Stack(int size)
+        void push(double no)
+        boolean isEmpty( )
+        double pop( )
+
+8. W.a.p. to create three class Furniture,Chair and Table. Class chair and table inherits class Furniture andd overrides method use( ). From main() method dyanamically call the objects of classes chair and Table.
+
+9. W.a.p. to make one interface called Solid,Which has two method findVolume( )
+and display(). classes Cube and Sphere  implements this interface. Find and Display the volume of cube and sphere with reference of Solid interface.
+
+10. W.a.p. to multiply 2 dimentional user given mXm matrix.
+
